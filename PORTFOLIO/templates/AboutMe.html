@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="section-header">
+    <h2><i class="fas fa-user"></i> About Me</h2>
+    <p>Get to know the person behind the code</p>
+</div>
+
+<div class="about-content">
+    <div class="about-text">
+        <h3>Creating Digital Excellence with HTML,CSS,and javascript</h3>
+        <p>Hello! I'm kipkirui Brian, a dedicated specially in frontend Developer with over 2 years of experience crafting innovative web solutions. My expertise spans across backend development with Flask and Django, frontend technologies, and cloud deployment.</p>
+        <p>I believe in writing clean, efficient code that not only solves problems but also creates exceptional user experiences. My approach combines technical excellence with creative problem-solving to deliver solutions that drive real business value.</p>
+        
+        <div class="skills">
+            {% for skill in skills %}
+            <div class="skill">{{ skill }}</div>
+            {% endfor %}
+        </div>
+
+        <div class="about-social-links">
+            <h4>Connect with me:</h4>
+            <div class="social-links">
+                <a href="https://wa.me/1234567890" class="social-link whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://facebook.com/yourprofile" class="social-link facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" class="social-link linkedin" target="_blank">
+                    <i class="fab fa-linkedin-in"></i> LinkedIn
+                </a>
+                <a href="https://twitter.com/yourprofile" class="social-link twitter" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="about-image">
+        <img src="{{ url_for('static', filename='IMG-20251008-WA0027.jpg') }}" alt="About Me">
+    </div>
+</div>
+{% endblock %}

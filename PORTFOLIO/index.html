@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briayoo-Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="profile">
+                <img src="IMG-20251008-WA0027.jpg" alt="briayoo Developer" class="profile-img">
+                <h2><b><i><marquee direction="right" scrollamount="2s">Kipkirui Brian</marquee> Developer</i></b></h2>
+                <p>Front-end Developer</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-section="home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about"><i class="fas fa-user"></i> About Me</a></li>
+                <li><a href="#services" class="nav-link" data-section="services"><i class="fas fa-cog"></i> My Services</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="#project-structure" class="nav-link" data-section="project-structure"><i class="fas fa-folder"></i> Project Files</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="hero">
+                    <div class="hero-content">
+                        <h1>Transform Your Ideas Into <span>Digital Reality</span></h1>
+                        <p>I'm a passionate Frontend Developer creating website, scalable web applications and automation solutions that drive business growth.</p>
+                        <div class="cta-buttons">
+                            <button class="btn btn-primary" onclick="showSection('contact')">
+                                <i class="fas fa-paper-plane"></i> Start Your Project
+                            </button>
+                            <button class="btn btn-secondary" onclick="showSection('services')">
+                                <i class="fas fa-eye"></i> View My Services
+                            </button>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://wa.me/+254715455128?text=Hi%2C%20I%20saw%20your%20iamreadytoassistyou%20and%20I%E2%80%99m%20interested!" class="social-link whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=61555863448117" class="social-link facebook" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="www.linkedin.com/in/brian-kipkirui-55888330a" class="social-link linkedin" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://twitter.com/yourprofile" class="social-link twitter" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Python Development">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Me Section -->
+            <section id="about" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-user"></i> About Me</h2>
+                    <p>Get to know the person behind the code</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Creating Digital Excellence with HTML,CSS & JAVASCRIPT</h3>
+                        <p>Hello! I'm Kipkirui Brian, a dedicated Front-end Developer with over 2 years of experience crafting innovative web solutions. My expertise spans across frontend development with HTML,CSS and JAVASCRIPT, frontend technologies, and cloud deployment.</p>
+                        <p>I believe in writing clean, efficient code that not only solves problems but also creates exceptional user experiences. My approach combines technical excellence with creative problem-solving to deliver solutions that drive real business value.</p>
+                        
+                        <div class="skills">
+                            <div class="skill">HTML</div>
+                            <div class="skill">CSS</div>
+                            <div class="skill">JAVASCRIPT</div>
+                            <div class="skill">C PROGRAMMING</div>
+                            <div class="skill">React</div>
+                            <div class="skill">PostgreSQL</div>
+                            <div class="skill">SOFTSKILSS</div>
+                            <div class="skill">SOFTWARES INSTALLATION</div>
+                            <div class="skill">DATABASE DESIGN</div>
+                            <div class="skill">TROUBLESHOOTING</div>
+                        </div>
+
+                        <!-- Social Links in About Section -->
+                        <div class="about-social-links">
+                            <h4>Connect with me:</h4>
+                            <div class="social-links">
+                                <a href="https://wa.me/+254715455128?text=Hi%2C%20I%20saw%20your%20iamreadytoassistyou%20and%20I%E2%80%99m%20interested!" class="social-link whatsapp" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=61555863448117" class="social-link facebook" target="_blank">
+                                    <i class="fab fa-facebook-f"></i> Facebook
+                                </a>
+                                <a href="www.linkedin.com/in/brian-kipkirui-55888330a" class="social-link linkedin" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i> LinkedIn
+                                </a>
+                                <a href="https://twitter.com/yourprofile" class="social-link twitter" target="_blank">
+                                    <i class="fab fa-twitter"></i> Twitter
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="IMG-20251001-WA0004.jpg" alt="kipkirui brian Developer">
+                    </div>
+                </div>
+            </section>
+
+            <!-- My Services Section -->
+            <section id="services" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-cog"></i> My Services</h2>
+                    <p>Comprehensive solutions to help your business thrive in the digital world</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Frontend Developer</h3>
+                        <p>Custom Python applications, automation scripts,frontend systems and backend systems built with best practices and scalable architecture.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Web Applications</h3>
+                        <p>Front-end web development using HTML, CSS, and modern JavaScript frameworks for responsive, user-friendly applications.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database Design</h3>
+                        <p>Efficient database architecture, optimization, and management for PostgreSQL, MySQL, and MongoDB systems.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h3>API Development</h3>
+                        <p>RESTful API design and implementation with comprehensive documentation, security, and testing.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Structure Section -->
+            <section id="project-structure" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-folder"></i> Project Structure</h2>
+                    <p>Explore the complete file structure of my Front-end projects</p>
+                </div>
+                <div class="project-structure">
+                    <div class="file-tree">
+                        <h3><i class="fas fa-project-diagram"></i> My Frontend Project</h3>
+                        <ul class="file-list">
+                            <li class="folder">
+                                <i class="fas fa-folder"></i> __pycache__
+                                <span class="file-desc">Python cache files</span>
+                            </li>
+                            <li class="folder">
+                                <i class="fas fa-folder"></i> static
+                                <ul>
+                                    <li class="file">
+                                        <i class="fas fa-file-code"></i> style.css
+                                        <span class="file-desc">Main stylesheet</span>
+                                    </li>
+                                    <li class="file">
+                                        <i class="fas fa-file-code"></i> script.js
+                                        <span class="file-desc">JavaScript functionality</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="folder">
+                                <i class="fas fa-folder"></i> templates
+                                <ul>
+                                    <li class="file">
+                                        <i class="fas fa-file-code"></i> base.html
+                                        <span class="file-desc">Base template</span>
+                                    </li>
+                                    <li class="file">
+                                        <i class="fas fa-file-code"></i> home.html
+                                        <span class="file-desc">Home page template</span>
+                                    </li>
+                                    <li class="file">
+                                        <i class="fas fa-file-code"></i> about.html
+                                        <span class="file-desc">About page template</span>
+                                    </li>
+                                    <li class="file">
+                                        <i class="fas fa-file-code"></i> contact.html
+                                        <span class="file-desc">Contact page template</span>
+                                    </li>
+                                    <li class="file">
+                                        <i class="fas fa-file-code"></i> my_service.html
+                                        <span class="file-desc">Services page template</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> app.py
+                                <span class="file-desc">Main Flask application</span>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> base.py
+                                <span class="file-desc">Base configuration</span>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> config.py
+                                <span class="file-desc">Application configuration</span>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> database.py
+                                <span class="file-desc">Database setup and models</span>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> form.py
+                                <span class="file-desc">Form definitions</span>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> models.py
+                                <span class="file-desc">Data models</span>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> routes.py
+                                <span class="file-desc">URL routes</span>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> test_connection.py
+                                <span class="file-desc">Database connection tests</span>
+                            </li>
+                            <li class="file">
+                                <i class="fas fa-file-code"></i> requirements.txt
+                                <span class="file-desc">Python dependencies</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="file-preview">
+                        <h3><i class="fas fa-code"></i> Code Preview</h3>
+                        <div class="code-tabs">
+                            <div class="tab-buttons">
+                                <button class="tab-button active" data-tab="app.py">app.py</button>
+                                <button class="tab-button" data-tab="models.py">models.py</button>
+                                <button class="tab-button" data-tab="routes.py">routes.py</button>
+                                <button class="tab-button" data-tab="config.py">config.py</button>
+                            </div>
+                            <div class="tab-content">
+                                <div class="code-preview active" id="app.py-tab">
+                                    <h4>app.py - Main Flask Application</h4>
+                                    <pre><code>from flask import Flask, render_template
+from config import Config
+from database import db
+
+app = Flask(__name__)
+app.config.from_object(Config)
+
+# Initialize database
+db.init_app(app)
+
+@app.route('/')
+def home():
+    return render_template('home.html')
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/services')
+def services():
+    return render_template('my_service.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)</code></pre>
+                                </div>
+                                <div class="code-preview" id="models.py-tab">
+                                    <h4>models.py - Database Models</h4>
+                                    <pre><code>from database import db
+from datetime import datetime
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(80), unique=True, nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=False)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)
+
+class Project(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(200), nullable=False)
+    description = db.Column(db.Text)
+    completed = db.Column(db.Boolean, default=False)
+    created_at = db.Column(db.DateTime, default=datetime.utcnow)</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+                    <p>Ready to start your project? Let's discuss how I can help bring your ideas to life</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Let's Work Together</h3>
+                        <p>I'm always excited to take on new challenges and collaborate on innovative projects. Whether you have a specific project in mind or just want to explore possibilities, I'd love to hear from you!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>kipkiruib645@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p>+254715455128</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Location</strong>
+                                    <p>BOMET,KENYA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4>Follow me on:</h4>
+                            <div class="social-links">
+                                <a href="https://wa.me/1234567890" class="social-link whatsapp" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="https://facebook.com/yourprofile" class="social-link facebook" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/yourprofile" class="social-link linkedin" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://twitter.com/yourprofile" class="social-link twitter" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="What is this regarding?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tell me about your project..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Briayoo Developer</h3>
+                    <p>Front-end Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2024 BRIAN Developer. All Rights Reserved.</p>
+                    <p>Built with ❤️ and Frontend</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
